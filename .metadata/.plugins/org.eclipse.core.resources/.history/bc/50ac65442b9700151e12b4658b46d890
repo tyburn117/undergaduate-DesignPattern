@@ -1,0 +1,11 @@
+
+public class DoorUpCmd implements Command{
+	GarageDoor door;
+	
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,60 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+class Agent{
+	private Queue<Order> m_ordersQueue;
+	
+	public Agent(){
+		m_ordersQueue = new LinkedList<Order>();
+	}
+	public void placeOrder(Order order){
+		m_ordersQueue.add(order);
+	}
+	public void sell(){
+		Order obj = m_ordersQueue.remove();
+		obj.execute();
+	}
+}
+interface Order{
+	public void execute();
+}
+
+class StockTrade{
+	public void buy(){
+		
+	}
+	public void sell(){
+		
+	}
+}
+
+class BuyStockOrder implements Order{
+	private StockTrade stock;
+	public BuyStockOrder(StockTrade stock){
+		this.stock = stock;
+	}
+	@Override
+	public void execute() {
+		stock.buy();
+	}
+}
+class SellStockOrder implements Order{
+	private StockTrade stock;
+	public SellStockOrder(StockTrade stock){
+		this.stock = stock;
+	}
+	@Override
+	public void execute() {
+		stock.sell();
+	}
+}
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

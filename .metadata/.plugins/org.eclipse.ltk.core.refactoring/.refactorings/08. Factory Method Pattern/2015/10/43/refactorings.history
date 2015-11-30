@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy source folder &apos;src&apos; to &apos;10. Abstract Factory Method Pattern&apos;&#x0A;- Original project: &apos;08. Factory Method Pattern&apos;&#x0A;- Destination element: &apos;10. Abstract Factory Method Pattern&apos;&#x0A;- Original element: &apos;08. Factory Method Pattern/src&apos;" description="Copy source folder" destination="=10. Abstract Factory Method Pattern" element1="/src" flags="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyRoots" roots="1" stamp="1445234158008" version="1.0"/>
+</session>

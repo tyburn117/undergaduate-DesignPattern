@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BeatBar.java&apos; to &apos;classes&apos;&#x0A;- Original project: &apos;5.1 TestServlet&apos;&#x0A;- Destination element: &apos;classes&apos;&#x0A;- Original element: &apos;BeatBar.java&apos;" description="Copy compilation unit" element1="/src&lt;{BeatBar.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1444293264703" target="/5.1 TestServlet/WebContent/WEB-INF/classes" units="1" version="1.0"/>
+</session>

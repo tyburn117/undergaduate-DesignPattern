@@ -1,0 +1,8 @@
+
+public class RemoteController {
+	Command[] commands;
+	
+	public RemoteControl(){
+		commands = new Command[10];
+	}
+}

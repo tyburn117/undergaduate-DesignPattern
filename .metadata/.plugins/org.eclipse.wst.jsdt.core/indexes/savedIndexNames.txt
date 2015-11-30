@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+/Users/tyburn/Documents/workspace/DesignPattern/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3802072853.index
+1493654278.index
+2422065666.index
+3910591792.index
+106186485.index
+2082951270.index

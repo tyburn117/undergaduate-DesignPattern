@@ -1,0 +1,47 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Directory extends FileComponent {
+
+	Iterator<FileComponent> iterator = null;
+	ArrayList<FileComponent> fileComponents = new ArrayList<FileComponent>();
+	String name;
+	
+	public void add(FileComponent fileComponent) {
+		fileComponents.add(fileComponent);
+	}
+ 
+	public void remove(FileComponent fileComponent) {
+		fileComponents.remove(fileComponent);
+	}
+ 
+	public FileComponent getChild(int i) {
+		return fileComponents.get(i);
+	}
+	public Directory(String name){
+		this.name = name;
+		File dir = new File(name);
+	}
+	public String getName() {
+		return name;
+	}
+	
+	@Override
+	public Iterator<FileComponent> createIterator() {
+		if (iterator == null) {
+			iterator = new CompositeIterator(fileComponents.iterator());
+		}
+		return iterator;
+	}
+	
+	public void print(){
+		System.out.println("\n" + getName());
+		System.out.println("---------------");
+		
+		Iterator<FileComponent> iter = fileComponents.iterator();
+		while(iterator.hasNext()){
+			FileComponent fileComponent = iter.next();
+			fileComponent.print();
+		}
+	}
+}

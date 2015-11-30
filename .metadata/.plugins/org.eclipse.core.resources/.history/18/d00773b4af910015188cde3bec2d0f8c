@@ -1,0 +1,12 @@
+import java.util.Iterator;
+
+public class File extends FileComponent {
+
+	private String name;
+	@Override
+	public Iterator<FileComponent> createIterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

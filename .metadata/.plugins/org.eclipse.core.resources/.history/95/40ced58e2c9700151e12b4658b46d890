@@ -1,0 +1,19 @@
+import java.util.Queue;
+
+class Agent{
+	private Queue m_ordersQueue;
+}
+class Order{
+	public void execute();
+}
+
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class LightOffCmd implements Command{
+	Light light;
+	
+	public LightOnCmd(Light l){light = l;}
+	@Override
+	public void execute() {
+		light.on();
+	}
+
+}

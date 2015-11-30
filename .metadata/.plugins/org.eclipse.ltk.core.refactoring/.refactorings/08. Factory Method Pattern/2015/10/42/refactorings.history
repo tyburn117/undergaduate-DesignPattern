@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;8. Factory Method Pattern/src/Products&apos;&#x0A;- Original project: &apos;8. Factory Method Pattern&apos;&#x0A;- Destination element: &apos;8. Factory Method Pattern/src/Products&apos;&#x0A;- Original elements:&#x0A;     NYStyleCheesePizza.java&#x0A;     ChicagoStyleCheesePizza.java&#x0A;     Pizza.java&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;Products" element1="/src&lt;{NYStyleCheesePizza.java" element2="/src&lt;{ChicagoStyleCheesePizza.java" element3="/src&lt;{Pizza.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1444895647142" units="3" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;15. Class Adapter Pattern/src&apos;&#x0A;- Original project: &apos;14. Adapter Pattern&apos;&#x0A;- Destination element: &apos;15. Class Adapter Pattern/src&apos;&#x0A;- Original elements:&#x0A;     Main.java&#x0A;     Adapter.java&#x0A;     Turkey.java&#x0A;     MallardDuck.java&#x0A;     Duck.java&#x0A;     WildTurkey.java" description="Copy compilation units" destination="=15. Class Adapter Pattern/src" element1="/src&lt;{Main.java" element2="/src&lt;{Adapter.java" element3="/src&lt;{Turkey.java" element4="/src&lt;{MallardDuck.java" element5="/src&lt;{Duck.java" element6="/src&lt;{WildTurkey.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1446445091208" units="6" version="1.0"/>
+</session>

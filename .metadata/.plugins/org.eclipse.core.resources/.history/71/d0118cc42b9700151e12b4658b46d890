@@ -1,0 +1,10 @@
+
+public class RemoteControlTest {
+	public static void main(String [] args){
+		Light 거실등 = new Light();
+		GarageDoor 차고문 = new GarageDoor();
+		
+		LightOnCmd 거실등켜기 = new LightOnCmd(거실등);
+		
+	}
+}
